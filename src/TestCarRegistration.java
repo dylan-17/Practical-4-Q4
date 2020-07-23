@@ -73,7 +73,7 @@ public class TestCarRegistration {
     public static void displayListing(Registration[] regArr) {
         System.out.printf("\n\n%50s\n", "Car Registration Listing");
         System.out.printf("%-6s %-12s %-12s %-10s %-8s %-6s %-10s %-10s %5s\n",
-                "Reg No", "Name", "IC No.", "Plate No", "Color", "Year", "Make", "Model", "Capacity");
+                "RegNo", "name", "ic", "PlateNo", "color", "year", "make", "model", "capacity");
         for (int i = 0; i < regArr.length; ++i) 
             System.out.println(regArr[i]);
         
